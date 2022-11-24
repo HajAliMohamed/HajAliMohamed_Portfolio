@@ -30,6 +30,7 @@ import team from "../../assets/partnership.png";
 import debug from "../../assets/debug.png";
 import passion from "../../assets/learning.png";
 import MobileNav from "../Header/MobileNav";
+import link from "https://drive.google.com/file/d/12JK-kpjBf83NPKUdfBwFFo2PxHEkfabx/view?usp=sharing";
 function About() {
   const soft = useRef("soft");
   const prgm = useRef("prgm");
@@ -102,7 +103,7 @@ function About() {
               the highest levels in this field and to offer
               professional,creative and unique products for my clients.
             </p>
-            <a href="/src/assets/Haj Ali Mohamed.pdf" download>
+            <a href={link} download>
               Download cv <FontAwesomeIcon icon={faDownload} />
             </a>
           </div>
