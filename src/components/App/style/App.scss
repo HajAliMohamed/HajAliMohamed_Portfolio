@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(171, 0, 255, 1) 0%,
+    rgba(134, 51, 255, 1) 0%,
+    rgba(128, 59, 255, 1) 65%,
+    rgba(115, 77, 255, 1) 75%,
+    rgba(86, 116, 255, 1) 87%,
+    rgba(67, 142, 255, 1) 100%
+  );
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

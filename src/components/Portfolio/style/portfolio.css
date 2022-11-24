@@ -1,0 +1,32 @@
+.portfolio_container {
+  -webkit-animation: fadeIn 4s backwards;
+          animation: fadeIn 4s backwards;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio_container .bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url("../../../assets/skulls.png");
+}
+
+.portfolio_container .projects_conatiner {
+  margin-top: 80px;
+}
+
+.portfolio_container .projects_conatiner .slick-slider {
+  width: 80%;
+  left: 12%;
+}
+
+.portfolio_container .projects_conatiner .slick-slider .slick-prev {
+  left: -28px;
+}
+/*# sourceMappingURL=portfolio.css.map */

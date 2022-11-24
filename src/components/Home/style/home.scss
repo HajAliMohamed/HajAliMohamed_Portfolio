@@ -1,0 +1,139 @@
+.home_container {
+  animation: fadeIn 5s backwards;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  .bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url("../../../assets/escheresque.png");
+  }
+  .hero {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+
+    .hero_rep {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-direction: column;
+      h1 {
+        -webkit-text-stroke: 2px white;
+        color: transparent;
+        font-size: 45px;
+        font-weight: 400;
+        cursor: default;
+        animation: left 4s backwards;
+        text-align: justify;
+      }
+
+      a {
+        animation: fadeIn 4s backwards;
+        margin-top: 25px;
+        min-width: 185px;
+        height: 40px;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        border: 1px solid white;
+        box-shadow: 0px 0px 107px 12px #ebe0c7;
+        text-decoration: none;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          box-shadow: 178px 0px 12px 12px white inset;
+          color: #1c1024;
+        }
+      }
+    }
+
+    .hero_img {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      animation-name: cardAnimation;
+      animation-duration: 4s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+      img {
+        width: 325px;
+      }
+    }
+  }
+}
+
+@keyframes cardAnimation {
+  from {
+    transform: scale(0.5) rotateY(180deg);
+  }
+
+  to {
+    transform: scale(1) rotateY(0);
+  }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .home_container {
+    .hero {
+      flex-direction: column;
+      height: 1056px;
+      padding: 0;
+      .hero_rep {
+        align-items: center;
+        h1 {
+          text-align: center;
+          font-size: 46px;
+        }
+      }
+
+      .hero_img {
+        width: 100%;
+        justify-content: center;
+        animation: none;
+        img {
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 687px) {
+  .home_container {
+    overflow: auto;
+    .hero {
+      justify-content: space-evenly;
+      flex-direction: column;
+      height: 1056px;
+      padding: 0;
+      .hero_rep {
+        align-items: center;
+
+        h1 {
+          text-align: center;
+          font-size: 35px;
+        }
+      }
+
+      .hero_img {
+        width: 100%;
+        justify-content: center;
+        animation: none;
+        img {
+          width: 350px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.header_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("../../../assets/gplay.png");
+  background-color: #1c102400;
+}
+
+.header_container img {
+  width: 80px;
+}
+
+.header_container nav {
+  width: 400px;
+}
+
+.header_container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.header_container nav ul a {
+  text-decoration: none;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.header_container .humburger {
+  display: none;
+}
+
+.header_container .humburger svg {
+  color: white;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .header_container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header_container nav {
+    display: none;
+  }
+  .header_container .humburger {
+    display: block;
+    position: fixed;
+    top: 45px;
+    right: 18px;
+    z-index: 1;
+  }
+}
+/*# sourceMappingURL=header.css.map */

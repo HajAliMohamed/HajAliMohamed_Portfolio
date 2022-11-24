@@ -1,0 +1,57 @@
+.header_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 80px;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../../assets/gplay.png");
+  background-color: #1c102400;
+  img {
+    width: 80px;
+  }
+
+  nav {
+    width: 400px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .humburger {
+    display: none;
+    svg {
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header_container {
+    justify-content: center;
+    nav {
+      display: none;
+    }
+
+    .humburger {
+      display: block;
+      position: fixed;
+      top: 45px;
+      right: 18px;
+      z-index: 1;
+    }
+  }
+}
