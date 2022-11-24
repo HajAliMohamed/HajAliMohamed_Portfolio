@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HajAliMohamed_Portfolio/static/css/main.482bc88b.css",
-    "main.js": "/HajAliMohamed_Portfolio/static/js/main.ff80f21b.js",
+    "main.js": "/HajAliMohamed_Portfolio/static/js/main.bdfc20aa.js",
     "static/media/hamouda0 copie.png": "/HajAliMohamed_Portfolio/static/media/hamouda0 copie.da5286ad2d759e71be6c.png",
     "static/media/Screenshot from 2022-11-06 15-17-39.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-39.8af8de06ef5150275beb.png",
     "static/media/Screenshot from 2022-11-07 00-21-18.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-18.5c00b5ffb445d022b7c5.png",
@@ -33,10 +33,10 @@
     "static/media/slick.woff": "/HajAliMohamed_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/HajAliMohamed_Portfolio/index.html",
     "main.482bc88b.css.map": "/HajAliMohamed_Portfolio/static/css/main.482bc88b.css.map",
-    "main.ff80f21b.js.map": "/HajAliMohamed_Portfolio/static/js/main.ff80f21b.js.map"
+    "main.bdfc20aa.js.map": "/HajAliMohamed_Portfolio/static/js/main.bdfc20aa.js.map"
   },
   "entrypoints": [
     "static/css/main.482bc88b.css",
-    "static/js/main.ff80f21b.js"
+    "static/js/main.bdfc20aa.js"
   ]
 }
