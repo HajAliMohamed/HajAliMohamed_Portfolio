@@ -14,7 +14,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: #a5a5a5;
   padding: 10px;
 }
 
@@ -38,7 +38,7 @@
 
 .skill_progress_container .progreess {
   width: 100%;
-  background-color: white;
+  background-color: #a5a5a5;
   height: 10px;
 }
 

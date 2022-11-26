@@ -157,7 +157,7 @@
           padding: 20px;
           h3 {
             align-self: flex-start;
-            color: white;
+            color: #a5a5a5;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -182,33 +182,6 @@
           width: 30%;
         }
       }
-    }
-  }
-
-  .my_journey {
-    width: 100%;
-    background-image: url("../../../assets/diagmonds.png");
-    margin-top: 477px;
-    padding: 20px;
-    background-color: #1c1024;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    .journey_header {
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      h1 {
-        color: white;
-        font-size: 30px;
-      }
-      hr {
-        width: 30%;
-      }
-    }
-
-    .timeline_container {
-      margin-top: 40px;
     }
   }
 }
@@ -304,12 +277,13 @@
           }
         }
       }
-    }
 
-    .my_journey {
-      .journey_header {
-        h1 {
-          font-size: 22px;
+      .prgm_skills_main {
+        .skill_header {
+          h1 {
+            font-size: 22px;
+            text-align: center;
+          }
         }
       }
     }
