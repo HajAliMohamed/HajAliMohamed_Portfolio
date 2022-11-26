@@ -26,6 +26,8 @@ import creative from "../../assets/brain.png";
 import team from "../../assets/partnership.png";
 import debug from "../../assets/debug.png";
 import passion from "../../assets/learning.png";
+import github from "../../assets/github.png";
+import redux from "../../assets/redux.png";
 import MobileNav from "../Header/MobileNav";
 import { Tooltip } from "@mui/material";
 import AOS from "aos";
@@ -159,40 +161,52 @@ function About() {
               <h3>
                 <FontAwesomeIcon icon={faCircle} /> Languages
               </h3>
-
-              <PrgmSkill name="Python" progress="65%" logo={py} />
-              <PrgmSkill name="Javascript" progress="85%" logo={js} />
-              <PrgmSkill name="JAVA" progress="50%" logo={java} />
+              <div className="skills">
+                <PrgmSkill name="Python" progress="65%" logo={py} />
+                <PrgmSkill name="Javascript" progress="85%" logo={js} />
+                <PrgmSkill name="JAVA" progress="50%" logo={java} />
+              </div>
             </div>
             <div>
               <h3>
                 <FontAwesomeIcon icon={faCircle} /> Frontend
               </h3>
-              <PrgmSkill name="HTML" progress="95%" logo={html} />
-              <PrgmSkill name="CSS" progress="95%" logo={css} />
-              <PrgmSkill name="ReactJS" progress="80%" logo={react} />
-              <PrgmSkill name="SCSS" progress="70%" logo={scss} />
+              <div className="skills">
+                <PrgmSkill name="HTML" progress="95%" logo={html} />
+                <PrgmSkill name="CSS" progress="95%" logo={css} />
+                <PrgmSkill name="ReactJS" progress="80%" logo={react} />
+              </div>
             </div>
             <div>
               <h3>
                 <FontAwesomeIcon icon={faCircle} /> Backend
               </h3>
-
-              <PrgmSkill name="Django" progress="50%" logo={dj} />
+              <div className="skills">
+                <Tooltip title="made by @islem__ayed" placement="top">
+                  <PrgmSkill name="Django" progress="50%" logo={dj} />
+                </Tooltip>
+              </div>
             </div>
             <div>
               <h3>
                 <FontAwesomeIcon icon={faCircle} /> database
               </h3>
-              <PrgmSkill name="Mysql" progress="90%" logo={sql} />
-              <PrgmSkill name="MongoDB" progress="45%" logo={mongo} />
+              <div className="skills">
+                <PrgmSkill name="Mysql" progress="90%" logo={sql} />
+                <PrgmSkill name="MongoDB" progress="45%" logo={mongo} />
+              </div>
             </div>
             <div>
               <h3>
                 <FontAwesomeIcon icon={faCircle} /> Tools
               </h3>
-              <PrgmSkill name="Material UI" progress="80%" logo={material} />
-              <PrgmSkill name="Git" progress="90%" logo={git} />
+              <div className="skills">
+                <PrgmSkill name="Redux" progress="60%" logo={redux} />
+                <PrgmSkill name="Github" progress="70%" logo={github} />
+                <PrgmSkill name="SCSS" progress="70%" logo={scss} />
+                <PrgmSkill name="Material UI" progress="80%" logo={material} />
+                <PrgmSkill name="Git" progress="60%" logo={git} />
+              </div>
             </div>
           </div>
         </div>
