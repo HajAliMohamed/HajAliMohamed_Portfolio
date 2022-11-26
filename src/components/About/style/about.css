@@ -3,6 +3,19 @@
   animation: fadeIn 5s backwards;
 }
 
+.about_container .scroll-top {
+  position: fixed;
+  right: 3%;
+  color: #ffffff;
+  font-size: 27px;
+  bottom: 7%;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .about_container .bg {
   position: fixed;
   top: 0;

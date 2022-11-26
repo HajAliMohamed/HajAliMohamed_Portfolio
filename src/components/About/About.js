@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style/about.scss";
 import Header from "../../components/Header/Header";
 import img from "../../assets/314390280_483879007110766_7406666164304615602_n.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle, faDownload } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCircle,
+  faDownload,
+  faFighterJet,
+  faJetFighterUp,
+} from "@fortawesome/free-solid-svg-icons";
 import PrgmSkill from "./skills/PrgmSkill";
 import SoftSkill from "./skills/SoftSkill";
 import html from "../../assets/html.png";
@@ -23,7 +28,10 @@ import team from "../../assets/partnership.png";
 import debug from "../../assets/debug.png";
 import passion from "../../assets/learning.png";
 import MobileNav from "../Header/MobileNav";
-
+import { Tooltip } from "@mui/material";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 function About() {
   const [open, setOpen] = useState(false);
   function handleOpen() {
@@ -36,8 +44,36 @@ function About() {
   const d = new Date();
   let my_age = d.getFullYear() - 2001;
 
+  useEffect(() => {
+    const scrollTop = document.querySelector(".about_container .scroll-top");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset >= 848) {
+        scrollTop.style.display = "block";
+        scrollTop.style.opacity = 1;
+      } else {
+        scrollTop.style.opacity = 0;
+        scrollTop.style.display = "none";
+      }
+    });
+  });
+
   return (
-    <div className="about_container">
+    <div
+      className="about_container"
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+    >
+      <Tooltip title="scroll top" placement="top">
+        <FontAwesomeIcon
+          icon={faJetFighterUp}
+          className="scroll-top"
+          onClick={() => {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }}
+        />
+      </Tooltip>
+
       <MobileNav isClicked={open} close={handleClose} />
       <Header click={handleOpen} />
       <div className="bg" data-value="9">

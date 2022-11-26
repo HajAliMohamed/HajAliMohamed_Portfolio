@@ -13,6 +13,9 @@ import {
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 function Contact() {
   const [open, setOpen] = useState(false);
   function handleOpen() {
@@ -78,7 +81,12 @@ function Contact() {
   }
 
   return (
-    <div className="contact_conatiner">
+    <div
+      className="contact_conatiner"
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+    >
       <MobileNav isClicked={open} close={handleClose} />
       <Header click={handleOpen} />
       <div className="success_sent" ref={popup}>

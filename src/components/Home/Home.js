@@ -5,6 +5,9 @@ import "./style/home.scss";
 import { Link } from "react-router-dom";
 import card from "../../assets/hamouda0 copie.png";
 import { Tooltip } from "@mui/material";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 function Home() {
   const handleMove = (e) => {
     const fut = document.querySelector(".fut");
@@ -29,7 +32,13 @@ function Home() {
   }
 
   return (
-    <div className="home_container" onMouseMove={handleMove}>
+    <div
+      className="home_container"
+      onMouseMove={handleMove}
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+    >
       <MobileNav isClicked={open} close={handleClose} />
       <Header click={handleOpen} />
       <div className="bg" data-value="9"></div>

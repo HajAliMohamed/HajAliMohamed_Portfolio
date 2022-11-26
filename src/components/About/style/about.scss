@@ -1,6 +1,17 @@
 .about_container {
   -webkit-animation: fadeIn 5s backwards;
   animation: fadeIn 5s backwards;
+  .scroll-top {
+    position: fixed;
+    right: 3%;
+    color: #ffffff;
+    font-size: 27px;
+    bottom: 7%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
+  }
   .bg {
     position: fixed;
     top: 0;

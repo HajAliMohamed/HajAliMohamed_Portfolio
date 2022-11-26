@@ -5,6 +5,19 @@
   height: 100%;
 }
 
+.portfolio_container .scroll-top {
+  position: fixed;
+  right: 3%;
+  color: #ffffff;
+  font-size: 27px;
+  bottom: 7%;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .portfolio_container .bg {
   position: fixed;
   top: 0;
