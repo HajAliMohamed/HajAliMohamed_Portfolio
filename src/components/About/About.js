@@ -28,6 +28,7 @@ import debug from "../../assets/debug.png";
 import passion from "../../assets/learning.png";
 import github from "../../assets/github.png";
 import redux from "../../assets/redux.png";
+import nodejs from "../../assets/nodejs.png";
 import MobileNav from "../Header/MobileNav";
 import { Tooltip } from "@mui/material";
 import AOS from "aos";
@@ -182,9 +183,8 @@ function About() {
                 <FontAwesomeIcon icon={faCircle} /> Backend
               </h3>
               <div className="skills">
-                <Tooltip title="made by @islem__ayed" placement="top">
-                  <PrgmSkill name="Django" progress="50%" logo={dj} />
-                </Tooltip>
+                <PrgmSkill name="Django" progress="50%" logo={dj} />
+                <PrgmSkill name="NodeJs" progress="50%" logo={nodejs} />
               </div>
             </div>
             <div>
