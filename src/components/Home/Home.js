@@ -49,7 +49,7 @@ function Home() {
             I’m Mohamed Haj Ali, i make creative and unique pieces of art with
             code.
           </h1>
-          <Link to="/about">Find out more about myself.</Link>
+          <Link to="/about">see more</Link>
         </div>
         <div className="hero_img">
           <Tooltip title="made by @islem__ayed" placement="top">

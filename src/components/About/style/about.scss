@@ -169,7 +169,9 @@
           padding: 20px;
           justify-content: flex-start;
           align-items: center;
-          background-color: rgb(255 255 255 / 18%);
+          border: 1px solid rgb(255 255 255 / 18%);
+          box-shadow: 0px 0px 19px -2px black;
+          background-image: url("../../../assets/dark-mosaic.png");
           border-radius: 20px;
           h3 {
             align-self: flex-start;
