@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircle,
   faDownload,
-  faFighterJet,
   faJetFighterUp,
 } from "@fortawesome/free-solid-svg-icons";
 import PrgmSkill from "./skills/PrgmSkill";
@@ -100,13 +99,13 @@ function About() {
               engineering student
             </h1>
             <p>
-              In the last 3 years I have been immersed in developing my skills
-              and acquiring new knowledge in the field of programming,
-              especially in web development, and I've always been keen to stay
-              up-to-date And not missing anything or any opportunity that can
-              enrich my knowledge ,I am very passionate and ambitious to reach
-              the highest levels in this field and to offer
-              professional,creative and unique products for my clients.
+              Over the last three years, I have been immersed in developing my
+              skills and gaining new knowledge in the area of programming,
+              especially in web development, and I always wanted to stay updated
+              and not miss anything that could enrich my knowledge ,I am very
+              passionate and ambitious to achieve the highest levels in this
+              field and to offer professional, creative and unique products for
+              my customers.
             </p>
             <a
               href="https://drive.google.com/file/d/12JK-kpjBf83NPKUdfBwFFo2PxHEkfabx/view?usp=sharing"
@@ -129,22 +128,22 @@ function About() {
           <div className="soft_skills">
             <SoftSkill
               image={creative}
-              desc="I am creative and always eager to provide unique content that brings sight, My Creativity is unlimited and evolving as much as my capabilities evolve."
+              desc="I am creative and always willing to provide unique content that brings sight, My creativity is limitless and evolves as my abilities evolve."
               title="Creativity"
             />
             <SoftSkill
               image={team}
-              desc="I am someone who believes that unity is strength And I appreciate working on a team for the sharing of knowledge and experience."
+              desc="I am someone who believes that unity is strength and I appreciate working as a team for the sharing of knowledge and experience."
               title="Team working"
             />
             <SoftSkill
               image={debug}
-              desc="I believe that success is the result of mistakes so I always seek to solve problems in my code and learn from it."
+              desc="I think success is the result of mistakes, so I always try to solve problems in my code and learn from it."
               title="Problem-solving"
             />
             <SoftSkill
               image={passion}
-              desc="I am very grateful to the person who told me that school doesn't teach you everything so that's why I am always dependent on self-learning."
+              desc="I am very grateful to the person who told me that school doesn't teach you everything, which is why I am always depending on self-learning."
               title="Self-learning"
             />
           </div>

@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 import "./style/header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Tooltip } from "@mui/material";
 function Header({ click }) {
   return (
     <div className="header_container">
-      <img src={logo} alt="logo" />
-
+      <Tooltip title="made by @islem__ayed" placement="top">
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
+      </Tooltip>
       <nav>
         <ul>
           <li>

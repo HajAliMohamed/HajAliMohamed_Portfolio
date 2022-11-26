@@ -31,8 +31,8 @@ function Timeline() {
           Social Sientific Network (Project End Of the Year)
         </h3>
         <p>
-          social platform where you can read and post articles, share your
-          knowledge and make connections with people with the same intrests.
+          a social platform where you can read and post articles, share
+          knowledge and connect with people with the same intrest.
         </p>
         <div className="tech">
           <span>ReactJs</span>
@@ -102,8 +102,8 @@ function Timeline() {
         <img src={img5} alt="img" />
         <h3 className="vertical-timeline-element-title">JCI RAFRAF</h3>
         <p>
-          static responsive website Dedicated for JCI rafraf which is introduce
-          them with their activities and bureau members
+          Static responsive website Dedicated to JCI rafraf which presents them
+          with their activities and members of the office.
         </p>
         <div className="tech">
           <span>HTML</span>
