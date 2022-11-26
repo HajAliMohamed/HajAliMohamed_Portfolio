@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HajAliMohamed_Portfolio/static/css/main.0b042b0a.css",
-    "main.js": "/HajAliMohamed_Portfolio/static/js/main.bd2bcde5.js",
+    "main.js": "/HajAliMohamed_Portfolio/static/js/main.9548d0af.js",
     "static/media/hamouda0 copie.png": "/HajAliMohamed_Portfolio/static/media/hamouda0 copie.da5286ad2d759e71be6c.png",
     "static/media/Screenshot from 2022-11-06 15-17-39.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-39.8af8de06ef5150275beb.png",
     "static/media/Screenshot from 2022-11-07 00-21-18.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-18.5c00b5ffb445d022b7c5.png",
@@ -23,6 +23,7 @@
     "static/media/scss.png": "/HajAliMohamed_Portfolio/static/media/scss.24d60c4f807b25c51b79.png",
     "static/media/logo.png": "/HajAliMohamed_Portfolio/static/media/logo.3ba593244667f644b928.png",
     "static/media/dj.png": "/HajAliMohamed_Portfolio/static/media/dj.4c399895f677cd3bfbc8.png",
+    "static/media/nodejs.png": "/HajAliMohamed_Portfolio/static/media/nodejs.efa9c0b4c365a0f266f1.png",
     "static/media/debug.png": "/HajAliMohamed_Portfolio/static/media/debug.e0574858ad4d354a72b5.png",
     "static/media/git.png": "/HajAliMohamed_Portfolio/static/media/git.fd1a85d6be07fd88fb05.png",
     "static/media/partnership.png": "/HajAliMohamed_Portfolio/static/media/partnership.f8d7cc76181b5e111f48.png",
@@ -31,10 +32,10 @@
     "static/media/dark-mosaic.png": "/HajAliMohamed_Portfolio/static/media/dark-mosaic.4ec7200660870187bcfb.png",
     "index.html": "/HajAliMohamed_Portfolio/index.html",
     "main.0b042b0a.css.map": "/HajAliMohamed_Portfolio/static/css/main.0b042b0a.css.map",
-    "main.bd2bcde5.js.map": "/HajAliMohamed_Portfolio/static/js/main.bd2bcde5.js.map"
+    "main.9548d0af.js.map": "/HajAliMohamed_Portfolio/static/js/main.9548d0af.js.map"
   },
   "entrypoints": [
     "static/css/main.0b042b0a.css",
-    "static/js/main.bd2bcde5.js"
+    "static/js/main.9548d0af.js"
   ]
 }
