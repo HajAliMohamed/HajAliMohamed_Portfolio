@@ -54,7 +54,10 @@ function Contact() {
       .post("https://mohamedhajali.pythonanywhere.com/sendMessage/", message, {
         "Access-Control-Allow-Origin":
           "https://hajalimohamed.github.io/HajAliMohamed_Portfolio/",
-        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Headers":
+          "Content-Type , Authorization, X-Requested-With",
+        "Access-Control-Allow-Methods": "POST",
+        "Content-Type": "application/json",
       })
       .then((res) => {
         if (res.status === 200) {
