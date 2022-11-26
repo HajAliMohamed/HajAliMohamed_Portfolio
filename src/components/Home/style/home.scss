@@ -1,7 +1,6 @@
 .home_container {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   .bg {
     position: fixed;
     top: 0;
@@ -28,11 +27,10 @@
       h1 {
         -webkit-text-stroke: 2px white;
         color: transparent;
-        font-size: 45px;
+        font-size: 44px;
         font-weight: 400;
         cursor: default;
         animation: left 4s backwards;
-        text-align: justify;
       }
 
       a {
