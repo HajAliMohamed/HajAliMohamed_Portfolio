@@ -8,7 +8,7 @@ import { Tooltip } from "@mui/material";
 function Header({ click }) {
   return (
     <div className="header_container">
-      <Tooltip title="made by @islem__ayed" placement="top">
+      <Tooltip title="made by @islem__ayed" placement="left">
         <Link to="/">
           <img src={logo} alt="logo" />
         </Link>
