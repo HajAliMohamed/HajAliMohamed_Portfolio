@@ -48,9 +48,14 @@ function Contact() {
   function show() {
     popup.current.style.transform = "translateY(0%)";
   }
+
   function handleSubmit(e) {
     axios
-      .post("https://mohamedhajali.pythonanywhere.com/sendMessage/", message)
+      .post("https://mohamedhajali.pythonanywhere.com/sendMessage/", message, {
+        "Access-Control-Allow-Origin":
+          "https://hajalimohamed.github.io/HajAliMohamed_Portfolio/",
+        "Access-Control-Allow-Headers": "Content-Type",
+      })
       .then((res) => {
         if (res.status === 200) {
           show();

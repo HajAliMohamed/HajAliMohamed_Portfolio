@@ -1,4 +1,5 @@
 .about_container {
+  -webkit-animation: fadeIn 5s backwards;
   animation: fadeIn 5s backwards;
   .bg {
     position: fixed;
@@ -92,10 +93,9 @@
           color: #a5a5a5;
           cursor: pointer;
           text-decoration: none;
-          box-shadow: 0px 0px 0px 0px white inset;
           transition: all 0.2s ease-in-out;
           &:hover {
-            box-shadow: 178px 0px 12px 12px white inset;
+            background-color: white;
             color: #1c1024;
           }
         }
@@ -112,17 +112,88 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    svg {
-      position: sticky;
-      top: 18px;
-      left: 49%;
-      color: white;
-      cursor: pointer;
-      z-index: 2;
-      margin-top: 20px;
+    .soft_skills_main {
+      .soft_skills {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+      }
+      .skill_header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h1 {
+          color: white;
+          font-size: 30px;
+        }
+        hr {
+          width: 30%;
+        }
+      }
     }
 
-    .skill_header {
+    .prgm_skills_main {
+      margin-top: 200px;
+      .prgm_skills {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        > div {
+          width: 34%;
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          h3 {
+            align-self: flex-start;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            svg {
+              font-size: 12px;
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+
+      .skill_header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h1 {
+          color: white;
+          font-size: 30px;
+        }
+        hr {
+          width: 30%;
+        }
+      }
+    }
+  }
+
+  .my_journey {
+    width: 100%;
+    background-image: url("../../../assets/diagmonds.png");
+    margin-top: 477px;
+    padding: 20px;
+    background-color: #1c1024;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .journey_header {
       width: 100%;
       display: flex;
       justify-content: space-evenly;
@@ -136,39 +207,8 @@
       }
     }
 
-    .skills {
-      width: 100%;
-      margin-top: 35px;
-      position: relative;
-      height: 742px;
-      overflow: hidden;
-
-      .soft_skills {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 20px;
-        position: absolute;
-        transition: all 2s ease-in-out;
-        height: 100%;
-      }
-
-      .prgm_skills {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        position: absolute;
-        transition: all 2s ease-in-out;
-        transform: translateX(200%);
-        height: 100%;
-
-        .slick-slider {
-          width: 70%;
-        }
-      }
+    .timeline_container {
+      margin-top: 40px;
     }
   }
 }
@@ -244,18 +284,32 @@
     }
 
     .skills_hero {
-      .skill_header {
-        h1 {
-          font-size: 22px;
-        }
-      }
-      .skills {
-        overflow-y: scroll;
-        .soft_skills {
-          height: 200%;
+      .prgm_skills_main {
+        .skill_header {
+          h1 {
+            font-size: 22px;
+          }
         }
         .prgm_skills {
-          overflow: hidden;
+          > div {
+            width: 100%;
+          }
+        }
+      }
+
+      .soft_skills_main {
+        .skill_header {
+          h1 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+
+    .my_journey {
+      .journey_header {
+        h1 {
+          font-size: 22px;
         }
       }
     }

@@ -29,19 +29,8 @@ export default function MultiActionAreaCard({
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <IconButton aria-label="add to favorites">
-          <a href={`${link}`} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon
-              icon={faRightToBracket}
-              color="rgba(0, 0, 0, 0.54)"
-            />
-          </a>
-        </IconButton>
-        <IconButton aria-label="share">
-          <a href={`${githubLink}`} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} color="rgba(0, 0, 0, 0.54)" />
-          </a>
-        </IconButton>
+        <IconButton aria-label="add to favorites"></IconButton>
+        <IconButton aria-label="share"></IconButton>
       </CardActions>
     </Card>
   );
