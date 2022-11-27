@@ -111,7 +111,7 @@ function About() {
               my customers.
             </p>
             <a
-              href="https://drive.google.com/file/d/1eiTINgq22Fv4HASIKUJ9Bq5nVSVfo0NR/view?usp=share_link"
+              href="https://drive.google.com/file/d/1CE5lKRJ1cbZ8NXLt0SHbhU9JIY7A1vcn/view?usp=share_link"
               download
               target="__blank"
             >
