@@ -41,7 +41,7 @@ function Portfolio() {
       data-aos-duration="2000"
       data-aos-easing="ease-in-out"
     >
-      <Tooltip title="scroll top" placement="top">
+      <Tooltip title="Fly to the top" placement="top">
         <FontAwesomeIcon
           icon={faJetFighterUp}
           className="scroll-top"

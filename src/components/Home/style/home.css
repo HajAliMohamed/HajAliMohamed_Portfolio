@@ -75,9 +75,14 @@
 }
 
 .home_container .hero .hero_rep a:hover {
-  -webkit-box-shadow: 178px 0px 12px 12px white inset;
-          box-shadow: 178px 0px 12px 12px white inset;
+  -webkit-box-shadow: 0px 0px 0 0 #ebe0c7;
+          box-shadow: 0px 0px 0 0 #ebe0c7;
+  background-color: white;
   color: #1c1024;
+}
+
+.home_container .hero .hero_rep a svg {
+  margin-left: 20px;
 }
 
 .home_container .hero .hero_img {

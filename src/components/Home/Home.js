@@ -7,6 +7,8 @@ import card from "../../assets/hamouda0 copie.png";
 import { Tooltip } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook, faBookOpen } from "@fortawesome/free-solid-svg-icons";
 AOS.init();
 function Home() {
   const handleMove = (e) => {
@@ -31,6 +33,15 @@ function Home() {
     setOpen(!open);
   }
 
+  const [hover, setHover] = useState(false);
+  function handleSetTrue() {
+    setHover(true);
+  }
+
+  function handleSetFalse() {
+    setHover(false);
+  }
+
   return (
     <div
       className="home_container"
@@ -49,7 +60,13 @@ function Home() {
             I’m Mohamed Haj Ali, i make creative and unique pieces of art with
             code.
           </h1>
-          <Link to="/about">see more</Link>
+          <Link
+            to="/about"
+            onMouseEnter={handleSetTrue}
+            onMouseLeave={handleSetFalse}
+          >
+            see more <FontAwesomeIcon icon={hover ? faBookOpen : faBook} />
+          </Link>
         </div>
         <div className="hero_img">
           <Tooltip title="made by @islem__ayed" placement="top">
