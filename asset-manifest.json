@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/HajAliMohamed_Portfolio/static/css/main.c4f7743a.css",
-    "main.js": "/HajAliMohamed_Portfolio/static/js/main.9b19e8ae.js",
+    "main.js": "/HajAliMohamed_Portfolio/static/js/main.ba87eeb4.js",
     "static/media/hamouda0 copie.png": "/HajAliMohamed_Portfolio/static/media/hamouda0 copie.da5286ad2d759e71be6c.png",
-    "static/media/Screenshot from 2022-11-06 15-17-39.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-39.8af8de06ef5150275beb.png",
-    "static/media/Screenshot from 2022-11-07 00-21-18.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-18.5c00b5ffb445d022b7c5.png",
-    "static/media/Screenshot from 2022-11-07 00-21-47.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-47.40d28b6f4db571c69531.png",
     "static/media/sql.png": "/HajAliMohamed_Portfolio/static/media/sql.167c88550478e6f0f85c.png",
-    "static/media/Screenshot from 2022-11-06 15-17-35.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-35.71f38274a559c1a25c3d.png",
-    "static/media/Screenshot from 2022-11-07 00-21-31.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-31.dc7c1bed636029aa56aa.png",
-    "static/media/Screenshot from 2022-11-07 11-22-58.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 11-22-58.a933aad8d53eae68a9bc.png",
-    "static/media/314390280_483879007110766__n.jpg": "/HajAliMohamed_Portfolio/static/media/314390280_483879007110766_7406666164304615602_n.1b25686d742ff015f91e.jpg",
+    "static/media/Screenshot from 2022-11-06 15-17-39.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-39.0861f2b12d20abfd3398.png",
     "static/media/py.png": "/HajAliMohamed_Portfolio/static/media/py.d8b377f05522bf35de36.png",
     "static/media/js.png": "/HajAliMohamed_Portfolio/static/media/js.b58e0cada6bdc52879ba.png",
+    "static/media/314390280_483879007110766__n.jpg": "/HajAliMohamed_Portfolio/static/media/314390280_483879007110766_7406666164304615602_n.9c2c805ab7fdde65b9bc.jpg",
+    "static/media/Screenshot from 2022-11-06 15-17-35.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-06 15-17-35.0011ef6aa1688a507d76.png",
+    "static/media/Screenshot from 2022-11-07 00-21-18.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-18.15cf69de842a8b616779.png",
+    "static/media/Screenshot from 2022-11-07 00-21-31.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-31.793c284e438c0dc70f11.png",
+    "static/media/Screenshot from 2022-11-07 00-21-47.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 00-21-47.efb992e842c010868ca3.png",
     "static/media/java.png": "/HajAliMohamed_Portfolio/static/media/java.2a1399f78477e0e27b8e.png",
     "static/media/html.png": "/HajAliMohamed_Portfolio/static/media/html.1d7b133e22ffe4829da6.png",
     "static/media/skulls.png": "/HajAliMohamed_Portfolio/static/media/skulls.3080855b7c0e9a01d6d5.png",
+    "static/media/Screenshot from 2022-11-07 11-22-58.png": "/HajAliMohamed_Portfolio/static/media/Screenshot from 2022-11-07 11-22-58.b8afcb71d000d2d4ff45.png",
     "static/media/mongo.png": "/HajAliMohamed_Portfolio/static/media/mongo.95ebe78cca60e67709b4.png",
     "static/media/redux.png": "/HajAliMohamed_Portfolio/static/media/redux.5de70b7bc0d2556a0958.png",
     "static/media/brain.png": "/HajAliMohamed_Portfolio/static/media/brain.b4485c82e188a1d93f88.png",
@@ -32,10 +32,10 @@
     "static/media/dark-mosaic.png": "/HajAliMohamed_Portfolio/static/media/dark-mosaic.4ec7200660870187bcfb.png",
     "index.html": "/HajAliMohamed_Portfolio/index.html",
     "main.c4f7743a.css.map": "/HajAliMohamed_Portfolio/static/css/main.c4f7743a.css.map",
-    "main.9b19e8ae.js.map": "/HajAliMohamed_Portfolio/static/js/main.9b19e8ae.js.map"
+    "main.ba87eeb4.js.map": "/HajAliMohamed_Portfolio/static/js/main.ba87eeb4.js.map"
   },
   "entrypoints": [
     "static/css/main.c4f7743a.css",
-    "static/js/main.9b19e8ae.js"
+    "static/js/main.ba87eeb4.js"
   ]
 }
