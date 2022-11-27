@@ -28,7 +28,7 @@ function Timeline() {
       >
         <img src={img6} alt="img" />
         <h3 className="vertical-timeline-element-title">
-          Social Sientific Network (Project End Of the Year)
+          Social Scientific Network (Project End Of the Year)
         </h3>
         <p>
           a social platform where you can read and post articles, share
