@@ -98,8 +98,8 @@ function Contact() {
         <div className="contact_desc">
           <h1>let's get in touch</h1>
           <p>
-            If you need my help or have a good project idea, reach out to me and
-            let's get it done.
+            If you need my help or you have a good idea for a project, reach out
+            to me and let's get it done.
           </p>
           <div className="socials">
             <a
