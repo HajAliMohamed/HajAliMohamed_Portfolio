@@ -105,10 +105,10 @@ function About() {
               Over the last three years, I have been immersed in developing my
               skills and gaining new knowledge in the area of programming,
               especially in web development, and I always wanted to stay updated
-              and not miss anything that could enrich my knowledge ,I am very
-              passionate and ambitious to achieve the highest levels in this
-              field and to offer professional, creative and unique products for
-              my customers.
+              and i don't miss anything that could enrich my knowledge ,I am
+              very passionate and ambitious to achieve the highest levels in
+              this field and to offer professional, creative and unique products
+              for my customers.
             </p>
             <a
               href="https://drive.google.com/file/d/12JK-kpjBf83NPKUdfBwFFo2PxHEkfabx/view?usp=sharing"
