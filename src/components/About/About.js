@@ -80,9 +80,9 @@ function About() {
       <Header click={handleOpen} />
       <div className="bg" data-value="9">
         <h1>
-          I make art with code.
+          Learn as if you will live forever,
           <br />
-          do i consider as an artist ?
+          live like you will die tomorrow.
         </h1>
       </div>
       <div className="about_hero">
