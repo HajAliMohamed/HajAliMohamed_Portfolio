@@ -32,7 +32,7 @@ function Timeline() {
         </h3>
         <p>
           a social platform where you can read and post articles, share
-          knowledge and connect with people with the same intrest.
+          knowledge and connect with people with the same interests.
         </p>
         <div className="tech">
           <span>ReactJs</span>
