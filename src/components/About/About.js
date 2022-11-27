@@ -141,7 +141,7 @@ function About() {
             />
             <SoftSkill
               image={debug}
-              desc="I think success is the result of mistakes, so I always try to solve problems in my code and learn from it."
+              desc="I believe that success is the result of mistakes, so I always try to solve problems in my code and learn from it."
               title="Problem-solving"
             />
             <SoftSkill
