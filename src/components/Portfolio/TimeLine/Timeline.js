@@ -21,6 +21,37 @@ function Timeline() {
   }
   return (
     <VerticalTimeline className="timeline" animate={animate}>
+
+          <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        icon={<FontAwesomeIcon icon={faCode} />}
+      >
+        <img src={img6} alt="img" />
+        <h3 className="vertical-timeline-element-title">
+          Showcase Website (Shoppmoney)
+        </h3>
+        <p>
+          a social platform where you can read and post articles, share
+          knowledge and connect with people with the same interests.
+        </p>
+        <div className="tech">
+          <span>VueJS</span>
+          <span>SASS</span>
+        </div>
+        <div className="links">
+          <a
+            href="https://www.vitrine.shoppmoney.cloud/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faRightToBracket}
+              color="rgba(0, 0, 0, 0.54)"
+            />
+          </a>
+        </div>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
